@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="../IMAGE/icon.png" type="image/png">
+	<title> YumYum - Contact </title>
+	<link rel="stylesheet" type="text/css" href="../css/stylecontact.css">
+</head>
+<body>
+<header>
+	<nav>
+		<div class="logo"><h1 class="animated infinite heartBeat">CAFE YumYum</h1></div>
+		<div class="menu">
+			<a href="../index.html">Home</a>
+			<a href="menu.html">Menu</a>
+			<a href="location.html">Locations</a>
+			<a href="about.html">About</a>
+		</div>
+		</nav>
+
+<div class="main">
+<div class="query">
+		<form id="query" method="post">
+			<label> First Name: </label>
+	 <input type="text" name="Fname" id="name" placeholder="Enter First Name"/>
+	 <br/> <br/>
+	 <label> Last Name: </label>
+	 <input type="text" name="Lname" id="name" placeholder="Enter Last Name"/>
+	 <br/> <br/>
+	 <label> Query Type : </label>
+	 <select>
+		 <option value="QType">Options</option>
+		 <option value="General">General</option>
+		 <option value="Delivery">Delivery Locations</option>
+		 <option value="Offers">Offers</option>
+		 <option value="Feedback">Feedback</option>
+		 <option value="Other">Other</option>
+		 <option value="Ticket">Submit a Ticket</option>
+	 </select>
+	 <br />
+	 <br />
+	 <label> Gender : </label><br />
+	 <input type="radio" name="gender" id="male"> <span id="male">Male</span> <br />
+	 <input type="radio" name="gender" id="female"><span id="female">Female</span>
+	 <br />
+	 <br />
+	 <label> Phone : </label>
+	 <input type="text" name="Ccode" value="+86" size="2" />
+	 <input type="text" name="phone" id="name" /> <br /> <br />
+	<label> Email : </label>
+	<input type="email" name="email" id="name" /> <br />
+	<br /> <br />
+	 <label>Type Your Message </label>
+	 <br />
+	 <textarea cols="42" rows="5" value="TText" placeholder="Enter Your Message" > </textarea>
+	 <br />
+	 <br />
+
+	 <button onclick="myFunction()" id="submit">SUBMIT</button>
+
+ <script>
+ function myFunction() {
+   alert("Message received ! We will get back to you shortly.");
+ }
+ </script>
+	 	</form>
+</div>
+</div>
+
+  </header>
+  </body>
+  </html>
